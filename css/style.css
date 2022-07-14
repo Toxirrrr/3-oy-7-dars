@@ -1,0 +1,63 @@
+body {
+    background-color: #29A864;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.hero__header {
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.hero__text {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+.hero__input {
+    width: 300px;
+    outline: none;
+    border: 0;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.hero__button {
+    padding: 5px 15px ;
+    border-radius: 5px;
+    align-items: center;
+    display: inline-block;
+}
+
+.hero__img {
+    border-radius: 50%;
+}
+
+.hero__list {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
